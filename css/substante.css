@@ -1,0 +1,206 @@
+/*--------------------------------------------------------- SEARCH BAR -----------------------------------------------------------*/
+
+.searchBar{
+height: 100%;
+width: 100%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #1a1b1c;
+-webkit-animation-duration: 0.9s!important;
+}
+
+/*------------------------------------------------------ SEARCH BAR CONTENT------------------------------------------------------*/
+
+.searchBarContent{
+position: relative;
+top: 46%;
+width: 80%;
+text-align: center;
+margin-top: 30px;
+margin: auto;
+}
+
+.searchBar input[type=text]{
+padding: 15px;
+font-size: 17px;
+border: none;
+float: left;
+width: 80%;
+background: white;
+}
+
+.searchBar button{
+float: left;
+width: 20%;
+padding: 15px;
+background: #DCDCDC;
+font-size: 17px;
+border: none;
+cursor: pointer;
+}
+
+.searchBar button:hover{
+background: #C0C0C0;
+}
+
+.searchRezContainer{
+    margin-top:10vh;
+}
+
+.searchRezBox{
+    margin-top:10vh;
+    
+}
+
+.NotFound{
+  margin-top: 10vh;  
+}
+
+.space{
+margin-top: 10vh;      
+}
+
+h3.headingSub1{
+font-size: 2.3rem;
+font-family: 'Multi', sans-serif;
+font-weight: 700;
+margin-bottom: 1.9rem;
+color: #fff;
+}
+
+h3.headingSub2{
+font-size: 1.8rem;
+font-family: 'Multi', sans-serif;
+font-weight: 700;
+margin-bottom: 0.2rem;
+margin-top: 2vh;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 1.9rem;
+}
+
+.jumbotron.special{
+margin-top: -100px;
+padding: 1rem 0 1rem;
+border-radius: 0; 
+}
+
+.textDespre{
+font-family: 'Roboto', sans-serif;
+font-size: 1.1rem;
+color: #fff;
+}
+
+.imgSubst{
+width: 300px;
+height: 150px;
+}
+
+.btn-secondary {
+    border-width: inherit;
+    border-radius: 1px;
+    padding: .6rem 1.2rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.dose1{
+    background-color: #39FF14;
+    color: #000;
+    pointer-events: none;
+}
+
+.dose2 {
+    background-color: yellow;
+    color: #000;
+    pointer-events: none;
+}
+
+.dose3{
+    background-color: #FF0800;
+    color: #000;
+    pointer-events: none;
+}
+
+.table {
+  color:#000;
+  font-size:26px;
+  background-color: #1c1a1b;
+  width: 35%;
+  margin:auto;
+  text-align: center;
+  margin-top:40px;
+  margin-bottom: 80px;
+}
+
+table.table-bordered{
+    border:1px solid #000;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid #000;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid #000;
+}
+
+.yellow{
+    background-color: yellow !important;
+}
+
+.orange{
+    background-color: orange !important;
+}
+
+.red{
+    background-color: red !important;
+}
+
+.beige{
+    background-color: beige!important;
+}
+
+.lightBlue{
+    background-color: lightblue !important;
+}
+
+.green {
+    background-color: #39FF14 !important;
+}
+
+.black{
+    background-color: beige !important;
+    color: #000 !important;
+}
+
+.disclaimer{
+    color: red !important;
+}
+
+
+@media (max-width: 1024px){
+
+.table {
+font-size:20px;
+width: 75%;    
+}
+    
+.btn-secondary {
+display: block;
+
+width: 100%;
+
+}
+
+    
+}
+
+
+
+
+
+
+
+
